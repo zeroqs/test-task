@@ -1,0 +1,27 @@
+@import "main";
+.header {
+  top: 0;
+  width: 100%;
+  padding: 10px 0px 10px 0px;
+  position: fixed;
+  color: $main-color;
+  background-color: $header-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 18px;
+  height: 50px;
+  &__side {
+    display: flex;
+    align-items: center;
+  }
+  .left-side {
+    gap: 24px;
+    padding-left: 10px;
+  }
+  .right-side {
+    gap: 16px;
+    padding-right: 10px;
+  }
+}
